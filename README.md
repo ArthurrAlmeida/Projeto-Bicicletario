@@ -54,7 +54,7 @@
 #
 
 <h3> Considerações finais </h3>
-<p> Bom pessoal, esse é meu primeiro projeto em Big Data usando tecnologias em nuvens, sei que preciso aprender muito ainda e que a qualidade não está boa, mas por ser um projeto com fins educativos tudo nele foi feito com ferramentas gratuitas. Estou disponivel para conversar sobre, tirar dúvidas e aprender com outros Engenheiros de Dados. Obrigado pela atenção e por tirar um tempo para avaliar meu projeto. </p>
+<p> Bom pessoal, esse é meu primeiro projeto em Big Data usando tecnologias em nuvens, tudo nele foi feito com ferramentas gratuitas. Estou disponivel para conversar sobre, tirar dúvidas e aprender com outros Engenheiros de Dados. Obrigado pela atenção e por tirar um tempo para avaliar meu projeto. </p>
 
 
 
