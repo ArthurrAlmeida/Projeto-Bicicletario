@@ -1,9 +1,11 @@
 # Projeto-Bicicletario 
-<h3>Projeto pessoal com dados CSV, apenas com intuito academico </h3>
+<p> Durante o projeto eu usei apenas ferramentas presentes no AWS gratuito e durante o processo deixei aberto para o publico todo o projeto. Primeiro criei Buckets no S3 para armazenar os dados em CSV, depois criei Crawlers para que esses Buckets fossem atualizados e assim comecei a criação dos ETLs. Para criação dos ETLs usei a interface visual do Glue, nela podemos apenas selecionar os arquivos e com isso a ferramenta gera o código de ETL (que está presente aqui com o nome de ETLRox), onde por meio de Data Soucers fiz a conexão com os dados dos Buckets S3, depois fiz a transformação desses dados e por fim inseri tudo no Bucket de DataLake, para finalmente conseguir realizar as analises usando o Athenas, nele podemos fazer consultas usando SQL padrão (também está presente aqui com o nome de QUERYS) e com isso finalizado o processo.</p><p> Durante o projeto eu usei apenas ferramentas presentes no AWS gratuito e durante o processo deixei aberto para o publico todo o projeto. Primeiro criei Buckets no S3 para armazenar os dados em CSV, depois criei Crawlers para que esses Buckets fossem atualizados e assim comecei a criação dos ETLs. Para criação dos ETLs usei a interface visual do Glue, nela podemos apenas selecionar os arquivos e com isso a ferramenta gera o código de ETL (que está presente aqui com o nome de ETLRox), onde por meio de Data Soucers fiz a conexão com os dados dos Buckets S3, depois fiz a transformação desses dados e por fim inseri tudo no Bucket de DataLake, para finalmente conseguir realizar as analises usando o Athenas, nele podemos fazer consultas usando SQL padrão (também está presente aqui com o nome de QUERYS) e com isso finalizado o processo.</p>
 
-#
+## Desenho
+![2](https://github.com/user-attachments/assets/01e9abbc-5893-47dc-a6c0-225cb5517348)
 
-<h3> Versões e ferramentas utilizadas </h3>
+
+## Versões e ferramentas utilizadas
 <p> AWS S3 </p>
 <p> AWS Glue </p>
 <p> AWS Athena </p>
@@ -12,20 +14,13 @@
 <p> Spark 3 </p>
 <p> Glue 4 </p>
 
-#
 
-<h3> Explicando Projeto </h3>
-<p> Durante o projeto eu usei apenas ferramentas presentes no AWS gratuito e durante o processo deixei aberto para o publico todo o projeto. Primeiro criei Buckets no S3 para armazenar os dados em CSV, depois criei Crawlers para que esses Buckets fossem atualizados e assim comecei a criação dos ETLs. Para criação dos ETLs usei a interface visual do Glue, nela podemos apenas selecionar os arquivos e com isso a ferramenta gera o código de ETL (que está presente aqui com o nome de ETLRox), onde por meio de Data Soucers fiz a conexão com os dados dos Buckets S3, depois fiz a transformação desses dados e por fim inseri tudo no Bucket de DataLake, para finalmente conseguir realizar as analises usando o Athenas, nele podemos fazer consultas usando SQL padrão (também está presente aqui com o nome de QUERYS) e com isso finalizado o processo.</p>
 
 # Solução
 
 <h3> Modelagem dos dados </h3>
 
 ![image](https://github.com/KnightAlmeida/Projeto-Bicicletario/assets/94095714/1c4ff1e3-6c79-4648-8d69-e7941c7a41d7)
-
-<h3> Modelagem Conceitual </h3>
-
-![Modelagem Conceitual](https://github.com/KnightAlmeida/Projeto-Bicicletario/assets/94095714/18dfa4ed-3b8f-43e8-9444-a9788de20eda)
 
 <h3> ETL feito no Glue </h3>
 
